@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spideyy_page.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="nav">
+        <span class="nav-logo">spideyy<span class="dot">.</span></span>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">home</a>
+            <a href="#gallery" class="nav-link">gallery</a>
+            <a href="#love" class="nav-link">for u ♡</a>
+        </div>
+    </nav>
+
+    <!-- ══════════════════════════════════════
+         PAGE 1 — HERO / LANDING
+    ══════════════════════════════════════ -->
+    <section id="home" class="page page-hero">
+
+        <!-- Floating hearts -->
+        <div class="hearts-bg" id="heartsBg"></div>
+
+        <!-- Web strands -->
+        <svg class="web-svg" viewBox="0 0 800 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <line class="web-line" x1="0" y1="0" x2="400" y2="300"/>
+            <line class="web-line" x1="800" y1="0" x2="400" y2="300"/>
+            <line class="web-line" x1="0" y1="600" x2="400" y2="300"/>
+            <line class="web-line" x1="800" y1="600" x2="400" y2="300"/>
+            <line class="web-line" x1="200" y1="0" x2="400" y2="300"/>
+            <line class="web-line" x1="600" y1="0" x2="400" y2="300"/>
+            <line class="web-line" x1="0" y1="200" x2="400" y2="300"/>
+            <line class="web-line" x1="800" y1="400" x2="400" y2="300"/>
+            <circle class="web-node" cx="400" cy="300" r="4"/>
+            <circle class="web-node" cx="0" cy="0" r="3"/>
+            <circle class="web-node" cx="800" cy="0" r="3"/>
+            <circle class="web-node" cx="200" cy="0" r="3"/>
+            <circle class="web-node" cx="600" cy="0" r="3"/>
+        </svg>
+
+        <div class="hero-content">
+            <p class="hero-eyebrow">with great power comes great love</p>
+            <h1 class="hero-title cursive">i would do it for u <span class="heart-text">&#x2764;</span></h1>
+            <p class="hero-sub">every spider. every universe. every love.</p>
+            <a href="#gallery" class="btn-hero">explore ↓</a>
+        </div>
+
+        <!-- Arrow heart decoration -->
+        <div class="arrow-heart" aria-hidden="true">
+            <svg viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg" class="arrow-heart-svg">
+                <path class="ah-path" d="M100,160 C60,130 10,100 10,55 C10,25 35,10 60,10 C75,10 90,18 100,30 C110,18 125,10 140,10 C165,10 190,25 190,55 C190,100 140,130 100,160 Z"/>
+                <!-- arrows along path -->
+                <text class="ah-arrow" x="18" y="52">→</text>
+                <text class="ah-arrow" x="38" y="22">↗</text>
+                <text class="ah-arrow" x="88" y="12">↑</text>
+                <text class="ah-arrow" x="148" y="18">↗</text>
+                <text class="ah-arrow" x="172" y="50">→</text>
+                <text class="ah-arrow" x="162" y="100">↘</text>
+                <text class="ah-arrow" x="118" y="140">↓</text>
+                <text class="ah-arrow" x="82" y="150">↓</text>
+                <text class="ah-arrow" x="42" y="115">↙</text>
+            </svg>
+        </div>
+
+    </section>
+
+    <!-- ══════════════════════════════════════
+         PAGE 2 — GALLERY
+    ══════════════════════════════════════ -->
+    <section id="gallery" class="page page-gallery">
+        <div class="gallery-header">
+            <span class="gallery-eyebrow">across the multiverse</span>
+            <h2 class="cursive gallery-title">every version of love</h2>
+        </div>
+
+        <div class="cards-grid">
+
+            <div class="card" data-caption="Peter & Gwen — The one who never forgets">
+                <div class="card-img-wrap">
+                    <img src="peter_gwen.jpg" alt="Peter and Gwen" class="card-img"/>
+                    <div class="card-shimmer"></div>
+                    <div class="card-hearts">
+                        <span>♡</span><span>♡</span><span>♡</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-label cursive">Peter &amp; Gwen</p>
+                    <p class="card-sub">two hearts, one tragedy</p>
+                </div>
+            </div>
+
+            <div class="card" data-caption="Peter & MJ — The one who understands">
+                <div class="card-img-wrap">
+                    <img src="peter_mj.jpg" alt="Peter and MJ" class="card-img"/>
+                    <div class="card-shimmer"></div>
+                    <div class="card-hearts">
+                        <span>♡</span><span>♡</span><span>♡</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-label cursive">Peter &amp; MJ</p>
+                    <p class="card-sub">sketched in stars &amp; red</p>
+                </div>
+            </div>
+
+            <div class="card card-featured" data-caption="Miles & Gwen — The one from another universe">
+                <div class="card-img-wrap">
+                    <img src="mm_gs.jpg" alt="Miles and Gwen" class="card-img"/>
+                    <div class="card-shimmer"></div>
+                    <div class="card-hearts">
+                        <span>♡</span><span>♡</span><span>♡</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="card-label cursive">Miles &amp; Gwen</p>
+                    <p class="card-sub">written on the skyline</p>
+                    <a href="#love" class="card-cta">feel it ♡</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════
+         PAGE 3 — DEDICATED LOVE PAGE
+    ══════════════════════════════════════ -->
+    <section id="love" class="page page-love">
+
+        <div class="love-bg-img">
+            <img src="mm_gs.jpg" alt="Miles and Gwen on the rooftop" class="love-fullimg"/>
+            <div class="love-overlay"></div>
+        </div>
+
+        <!-- Floating petals / hearts -->
+        <div class="love-particles" id="loveParticles"></div>
+
+        <!-- Arrow heart - large -->
+        <div class="love-arrow-heart" aria-hidden="true">
+            <svg viewBox="0 0 260 240" xmlns="http://www.w3.org/2000/svg">
+                <path class="lah-path" d="M130,210 C80,175 12,138 12,75 C12,35 42,12 78,12 C98,12 118,22 130,38 C142,22 162,12 182,12 C218,12 248,35 248,75 C248,138 180,175 130,210 Z"/>
+                <text class="lah-arrow" x="20" y="74">→</text>
+                <text class="lah-arrow" x="46" y="28">↗</text>
+                <text class="lah-arrow" x="112" y="14">↑</text>
+                <text class="lah-arrow" x="190" y="25">↗</text>
+                <text class="lah-arrow" x="228" y="70">→</text>
+                <text class="lah-arrow" x="215" y="135">↘</text>
+                <text class="lah-arrow" x="155" y="185">↓</text>
+                <text class="lah-arrow" x="103" y="198">↓</text>
+                <text class="lah-arrow" x="44" y="148">↙</text>
+            </svg>
+        </div>
+
+        <div class="love-content">
+            <p class="love-eyebrow">written across the sky</p>
+            <h2 class="love-quote cursive">i would do it for u <span class="love-heart-emoji">&#x2764;</span></h2>
+            <p class="love-desc">across every universe, every timeline, every impossible distance — <br>they always find their way back.</p>
+            <div class="love-tags">
+                <span class="tag">#MilesAndGwen</span>
+                <span class="tag">#SpiderVerse</span>
+                <span class="tag">#ForYou</span>
+            </div>
+        </div>
+
+        <!-- Floating bokeh hearts on canvas -->
+        <canvas id="loveCanvas" class="love-canvas"></canvas>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="cursive footer-text">made with ♡ for every spider &amp; every love</p>
+        <p class="footer-tiny">spideyy_page.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
